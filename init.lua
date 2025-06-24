@@ -5,9 +5,23 @@
 -- ██║  ██║██║  ██║██║  ██║███████╗██║ ╚████║ ██║███████╗███████╗
 -- ╚═╝  ╚═╝╚═╝  ╚═╝╚═╝  ╚═╝╚══════╝╚═╝  ╚═══╝ ╚═╝╚══════╝╚══════╝
 -- RhhenVim is a Vim config that I (rhhen) use personally!
---
---
--- bootstrap lazy.nvim, LazyVim and your plugins
+--                        ==============
+--         ________ ++     ________
+--       /VVVVVVVV\++++  /VVVVVVVV\     Vim is an Open Source Editor
+--       \VVVVVVVV/++++++\VVVVVVVV/     Neovim is a `fork` of Vim -
+--        |VVVVVV|++++++++/VVVVV/'       - That Provides Lua Support
+--        |VVVVVV|++++++/VVVVV/'        This allows for awesome -
+--       +|VVVVVV|++++/VVVVV/'+          - projects like LazyVim!
+--     +++|VVVVVV|++/VVVVV/'+++++       LazyVim powers RhhenVim -
+--   +++++|VVVVVV|/VVVVV/'+++++++++      - As a `plugin` loader -
+--     +++|VVVVVVVVVVV/'+++++++++        - And preset! RhhenVim is -
+--       +|VVVVVVVVV/'+++++++++          - constantly updating with -
+--        |VVVVVVV/'+++++++++            - new features and plugins!
+--        |VVVVV/'+++++++++             Most things that make this -
+--        |VVV/'+++++++++                - "IDE" great are plugins -
+--        'V/'   ++++++                 made by the community!
+--                 ++
+
 require("config.lazy")
 vim.cmd(":set shell=/opt/homebrew/bin/fish")
 vim.cmd(":set nornu")
@@ -268,5 +282,3 @@ ins_right({
 
 -- Now don't forget to initialize lualine
 lualine.setup(config)
-
--- Title Screen
