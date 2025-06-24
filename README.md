@@ -4,6 +4,8 @@
 
 RhhenVim is a custom LazyVim config that runs out of the box
 
+</div>
+
 <img src="demo.png" height="200">
 <img src="demo1.png" height="200">
 
