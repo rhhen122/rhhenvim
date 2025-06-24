@@ -7,6 +7,8 @@ RhhenVim is a custom LazyVim config that runs out of the box
 <img src="demo.png" height="200">
 <img src="demo1.png" height="200">
 
+###
+
 ⚠️: Not yet tested
 
 ❌: Comfirmed non support
@@ -18,7 +20,7 @@ RhhenVim is a custom LazyVim config that runs out of the box
                 <th>Checkbox</th>
         </tr>
         <tr>
-                <td>🐧 Linux<td>
+                <td>🐧 Linux</td>
                 <td>⚠️</td>
         </tr>
         <tr>
