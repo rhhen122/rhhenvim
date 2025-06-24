@@ -1,7 +1,17 @@
+-- ██████╗ ██╗  ██╗██╗  ██╗███████╗███╗   ██╗ ██╗██████╗ ██████╗
+-- ██╔══██╗██║  ██║██║  ██║██╔════╝████╗  ██║███║╚════██╗╚════██╗
+-- ██████╔╝███████║███████║█████╗  ██╔██╗ ██║╚██║ █████╔╝ █████╔╝
+-- ██╔══██╗██╔══██║██╔══██║██╔══╝  ██║╚██╗██║ ██║██╔═══╝ ██╔═══╝
+-- ██║  ██║██║  ██║██║  ██║███████╗██║ ╚████║ ██║███████╗███████╗
+-- ╚═╝  ╚═╝╚═╝  ╚═╝╚═╝  ╚═╝╚══════╝╚═╝  ╚═══╝ ╚═╝╚══════╝╚══════╝
+-- RhhenVim is a Vim config that I (rhhen) use personally!
+--
+--
 -- bootstrap lazy.nvim, LazyVim and your plugins
 require("config.lazy")
 vim.cmd(":set shell=/opt/homebrew/bin/fish")
 vim.cmd(":set nornu")
+vim.g.lazyvim_check_order = false
 
 -- incline
 
