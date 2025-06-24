@@ -7,6 +7,29 @@ RhhenVim is a custom LazyVim config that runs out of the box
 <img src="demo.png" height="200">
 <img src="demo1.png" height="200">
 
+⚠️: Not yet tested
+
+❌: Comfirmed non support
+
+✅: Comfirmed Working
+<table>
+        <tr>
+                <th>Support</th>
+                <th>Checkbox</th>
+        </tr>
+        <tr>
+                <td>🐧 Linux<td>
+                <td>⚠️</td>
+        </tr>
+        <tr>
+                <td>🪟 Windows</td>
+                <td>⚠️</td>
+        </tr>
+        <tr>
+                <td>🍎 MacOS</td>
+                <td>✅</td>
+</table>
+
 </div>
 
 ## Install
