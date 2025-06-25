@@ -26,6 +26,7 @@ require("config.lazy")
 vim.cmd(":set shell=/opt/homebrew/bin/fish")
 vim.cmd(":set nornu")
 vim.g.lazyvim_check_order = false
+vim.cmd(':Alias t TransparentToggle')
 
 -- incline
 
