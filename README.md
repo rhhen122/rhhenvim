@@ -1,6 +1,37 @@
 # RhhenVim
 A Better Vim distrobution powered by packer.nvim, neovim & lua
 
+```lua
+-- ██████╗ ██╗  ██╗██╗  ██╗███████╗███╗   ██╗ ██╗██████╗ ██████╗
+-- ██╔══██╗██║  ██║██║  ██║██╔════╝████╗  ██║███║╚════██╗╚════██╗
+-- ██████╔╝███████║███████║█████╗  ██╔██╗ ██║╚██║ █████╔╝ █████╔╝
+-- ██╔══██╗██╔══██║██╔══██║██╔══╝  ██║╚██╗██║ ██║██╔═══╝ ██╔═══╝
+-- ██║  ██║██║  ██║██║  ██║███████╗██║ ╚████║ ██║███████╗███████╗
+-- ╚═╝  ╚═╝╚═╝  ╚═╝╚═╝  ╚═╝╚══════╝╚═╝  ╚═══╝ ╚═╝╚══════╝╚══════╝
+-- RhhenVim is a Vim config that I (rhhen) use personally!
+--                        ==============
+--         ________ ++     ________
+--       /VVVVVVVV\++++  /VVVVVVVV\     Vim is an Open Source Editor
+--       \VVVVVVVV/++++++\VVVVVVVV/     Neovim is a `fork` of Vim -
+--        |VVVVVV|++++++++/VVVVV/'       - That Provides Lua Support
+--        |VVVVVV|++++++/VVVVV/'        This allows for awesome -
+--       +|VVVVVV|++++/VVVVV/'+          - projects like LazyVim!
+--     +++|VVVVVV|++/VVVVV/'+++++       LazyVim powers RhhenVim -
+--   +++++|VVVVVV|/VVVVV/'+++++++++      - As a `plugin` loader -
+--     +++|VVVVVVVVVVV/'+++++++++        - And preset! RhhenVim is -
+--       +|VVVVVVVVV/'+++++++++          - constantly updating with -
+--        |VVVVVVV/'+++++++++            - new features and plugins!
+--        |VVVVV/'+++++++++             Most things that make this -
+--        |VVV/'+++++++++                - "IDE" great are plugins -
+--        'V/'   ++++++                 made by the community!
+--                 ++
+--                        ==============
+-- Please check the README for more info on support and such!
+-- Tips: use :t to make the background color transparent,
+-- [space]+l will bring up the Lazy menu where you can update plugins -
+-- and install new ones!
+```
+
 ## Usage
 
 Load and unload plugin configs in the `lua/rhhenvim/init.lua` file!

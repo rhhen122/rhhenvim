@@ -66,4 +66,9 @@ return require('packer').startup(function(use)
     use 'lewis6991/gitsigns.nvim' -- OPTIONAL: for git status
     use 'romgrk/barbar.nvim'
 
+    use 'Konfekt/vim-alias'
+
+    -- whichkey
+    use "folke/which-key.nvim"
+
 end)

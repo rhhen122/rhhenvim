@@ -159,6 +159,11 @@ _G.packer_plugins = {
     path = "/Users/rokyhenderson/.local/share/nvim/site/pack/packer/start/telescope.nvim",
     url = "https://github.com/nvim-telescope/telescope.nvim"
   },
+  ["vim-alias"] = {
+    loaded = true,
+    path = "/Users/rokyhenderson/.local/share/nvim/site/pack/packer/start/vim-alias",
+    url = "https://github.com/Konfekt/vim-alias"
+  },
   ["vim-archery"] = {
     loaded = true,
     path = "/Users/rokyhenderson/.local/share/nvim/site/pack/packer/start/vim-archery",
@@ -168,6 +173,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/Users/rokyhenderson/.local/share/nvim/site/pack/packer/start/vim-be-good",
     url = "https://github.com/ThePrimeagen/vim-be-good"
+  },
+  ["which-key.nvim"] = {
+    loaded = true,
+    path = "/Users/rokyhenderson/.local/share/nvim/site/pack/packer/start/which-key.nvim",
+    url = "https://github.com/folke/which-key.nvim"
   }
 }
 
