@@ -88,5 +88,7 @@ return require('packer').startup(function(use)
         requires = { {'nvim-lua/plenary.nvim'} }
     }
 
+    use 'mason-org/mason.nvim'
+
 
 end)

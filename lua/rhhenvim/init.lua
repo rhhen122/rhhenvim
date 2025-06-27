@@ -1,5 +1,6 @@
 vim.cmd(":set rnu")
 require("rhhenvim.remap")
+require("rhhenvim.packer")
 
 -- Incline
 
@@ -337,3 +338,7 @@ require("noice").setup({
         lsp_doc_border = false, -- add a border to hover docs and signature help
     },
 })
+
+-- Mason
+
+require("mason").setup()
