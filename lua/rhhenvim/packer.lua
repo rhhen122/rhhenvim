@@ -18,7 +18,8 @@ return require('packer').startup(function(use)
 
     use {
         'nvim-lualine/lualine.nvim',
-        requires = { 'nvim-tree/nvim-web-devicons', opt = true }
+        requires = { 'nvim-tree/nvim-web-devicons', opt = true },
+        options = { theme = 'gruvbox' }
     }
 
     -- use {'akinsho/bufferline.nvim', tag = "*", requires = 'nvim-tree/nvim-web-devicons'}
@@ -70,5 +71,6 @@ return require('packer').startup(function(use)
 
     -- whichkey
     use "folke/which-key.nvim"
+
 
 end)
