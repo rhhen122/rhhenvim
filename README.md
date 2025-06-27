@@ -15,8 +15,8 @@ A Better Vim distrobution powered by packer.nvim, neovim & lua
 --       \VVVVVVVV/++++++\VVVVVVVV/     Neovim is a `fork` of Vim -
 --        |VVVVVV|++++++++/VVVVV/'       - That Provides Lua Support
 --        |VVVVVV|++++++/VVVVV/'        This allows for awesome -
---       +|VVVVVV|++++/VVVVV/'+          - projects like LazyVim!
---     +++|VVVVVV|++/VVVVV/'+++++       LazyVim powers RhhenVim -
+--       +|VVVVVV|++++/VVVVV/'+          - projects like Packer.nvim!
+--     +++|VVVVVV|++/VVVVV/'+++++       Packer.nvim powers RhhenVim -
 --   +++++|VVVVVV|/VVVVV/'+++++++++      - As a `plugin` loader -
 --     +++|VVVVVVVVVVV/'+++++++++        - And preset! RhhenVim is -
 --       +|VVVVVVVVV/'+++++++++          - constantly updating with -
@@ -27,8 +27,7 @@ A Better Vim distrobution powered by packer.nvim, neovim & lua
 --                 ++
 --                        ==============
 -- Please check the README for more info on support and such!
--- Tips: use :t to make the background color transparent,
--- [space]+l will bring up the Lazy menu where you can update plugins -
+-- Tips: use :lua t() to make the background color transparent,
 -- and install new ones!
 ```
 
