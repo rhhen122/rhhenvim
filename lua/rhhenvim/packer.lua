@@ -9,10 +9,7 @@ return require('packer').startup(function(use)
 
     use({
         "rose-pine/neovim",
-        as = "rose-pine",
-        config = function()
-            vim.cmd("colorscheme rose-pine")
-        end
+        as = "rose-pine"
     })
 
     use "nvim-lua/plenary.nvim"
@@ -58,5 +55,15 @@ return require('packer').startup(function(use)
 
     use 'mason-org/mason.nvim'
 
+    use 'gregsexton/Atom'
+
+    use 'Badacadabra/vim-archery'
+
+    use 'dikiaap/minimalist'
+
+
+    use 'nvim-tree/nvim-web-devicons' -- OPTIONAL: for file icons
+    use 'lewis6991/gitsigns.nvim' -- OPTIONAL: for git status
+    use 'romgrk/barbar.nvim'
 
 end)
