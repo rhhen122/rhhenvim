@@ -39,6 +39,7 @@ return require('packer').startup(function(use)
 
     use { 'neovim/nvim-lspconfig',
         config = function()
+            -- LSP's are installed here:
             require("lspconfig").ruff.setup{}
             require'lspconfig'.lua_ls.setup{}
             require 'lspconfig'.bashls.setup{}
@@ -50,25 +51,6 @@ return require('packer').startup(function(use)
 
     -- Golf.Vim
     use 'vuciv/golf'
-
-    -- LSP 0
-
-    use {
-        'VonHeikemen/lsp-zero.nvim',
-        requires = {
-            {'neovim/nvim-lspconfig'},
-            {'williamboman/mason.nvim'},
-            {'williamboman/mason-lspconfig.nvim'},
-            {'hrsh7th/nvim-cmp'},
-            {'hrsh7th/cmp-buffer'},
-            {'hrsh7th/cmp-path'},
-            {'saadparwaiz1/cmp_luasnip'},
-            {'hrsh7th/cmp-nvim-lsp'},
-            {'hrsh7th/cmp-nvim-lua'},
-            {'L3MON4D3/LuaSnip'},
-            {'rafamadriz/friendly-snippets'},
-        }
-    }
 
     use {
         "folke/noice.nvim",
