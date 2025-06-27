@@ -1,10 +1,16 @@
-vim.cmd(":set rnu")
 require("rhhenvim.remap")
 require("rhhenvim.packer")
 require("rhhenvim.incline")
 require("rhhenvim.lualine")
 require("rhhenvim.treesitter")
 require("rhhenvim.noice")
+require("rhhenvim.lsp")
+
+
+
+
+
+
 
 -- Transparent
 
@@ -26,3 +32,5 @@ vim.cmd(":set shell=/opt/homebrew/bin/fish")
 -- Mason
 
 require("mason").setup()
+
+vim.cmd(":set rnu")
