@@ -29,3 +29,8 @@ Its quite simple really
 ```bash
 git clone https://github.com/rhhen122/rhhenvim.git ~/.config/nvim/
 ```
+
+Now run the following in neovim
+```vim
+:lua start()
+```

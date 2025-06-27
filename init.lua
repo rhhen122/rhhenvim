@@ -9,6 +9,12 @@ function t(color)
 
 end
 
+-- Start
+
+function start()
+    vim.cmd(":PackerSync")
+end
+
 -- Shell
 
 vim.cmd(":set shell=/opt/homebrew/bin/fish")
