@@ -8,7 +8,7 @@ require("rhhenvim.lsp")
 require("rhhenvim.netrw")
 
 -- ColorSchemes
-require("rhhenvim.rose-pine")
+-- require("rhhenvim.rose-pine")
 -- require("rhhenvim.atom")
--- require("rhhenvim.archery")
+require("rhhenvim.archery")
 -- require("rhhenvim.minimalist")
