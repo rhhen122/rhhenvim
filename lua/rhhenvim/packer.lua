@@ -72,5 +72,10 @@ return require('packer').startup(function(use)
     -- whichkey
     use "folke/which-key.nvim"
 
+    use "folke/tokyonight.nvim"
 
+    use 'ThePrimeagen/harpoon'
+
+    use 'duane9/nvim-rg'
+    
 end)

@@ -66,3 +66,10 @@ map('n', '<Space>bw', '<Cmd>BufferOrderByWindowNumber<CR>', opts)
 -- Other:
 -- :BarbarEnable - enables barbar (enabled by default)
 -- :BarbarDisable - very bad command, should never be used
+
+-- Harpoon
+
+vim.keymap.set('n', '<leader>ha', function() vim.cmd.lua("require('harpoon.mark').add_file()") end, { desc = 'Harpoon Add' })
+vim.keymap.set('n', '<leader>hh', function() vim.cmd.lua("require('harpoon.ui').toggle_quick_menu()") end, { desc = 'Harpoon See' })
+
+

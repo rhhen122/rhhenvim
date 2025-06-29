@@ -94,6 +94,11 @@ _G.packer_plugins = {
     path = "/Users/rokyhenderson/.local/share/nvim/site/pack/packer/start/golf",
     url = "https://github.com/vuciv/golf"
   },
+  harpoon = {
+    loaded = true,
+    path = "/Users/rokyhenderson/.local/share/nvim/site/pack/packer/start/harpoon",
+    url = "https://github.com/ThePrimeagen/harpoon"
+  },
   ["incline.nvim"] = {
     loaded = true,
     path = "/Users/rokyhenderson/.local/share/nvim/site/pack/packer/start/incline.nvim",
@@ -129,6 +134,11 @@ _G.packer_plugins = {
     path = "/Users/rokyhenderson/.local/share/nvim/site/pack/packer/start/nvim-lspconfig",
     url = "https://github.com/neovim/nvim-lspconfig"
   },
+  ["nvim-rg"] = {
+    loaded = true,
+    path = "/Users/rokyhenderson/.local/share/nvim/site/pack/packer/start/nvim-rg",
+    url = "https://github.com/duane9/nvim-rg"
+  },
   ["nvim-treesitter"] = {
     loaded = true,
     path = "/Users/rokyhenderson/.local/share/nvim/site/pack/packer/start/nvim-treesitter",
@@ -149,10 +159,20 @@ _G.packer_plugins = {
     path = "/Users/rokyhenderson/.local/share/nvim/site/pack/packer/start/plenary.nvim",
     url = "https://github.com/nvim-lua/plenary.nvim"
   },
+  ["rose-pine"] = {
+    loaded = true,
+    path = "/Users/rokyhenderson/.local/share/nvim/site/pack/packer/start/rose-pine",
+    url = "https://github.com/rose-pine/neovim"
+  },
   ["telescope.nvim"] = {
     loaded = true,
     path = "/Users/rokyhenderson/.local/share/nvim/site/pack/packer/start/telescope.nvim",
     url = "https://github.com/nvim-telescope/telescope.nvim"
+  },
+  ["tokyonight.nvim"] = {
+    loaded = true,
+    path = "/Users/rokyhenderson/.local/share/nvim/site/pack/packer/start/tokyonight.nvim",
+    url = "https://github.com/folke/tokyonight.nvim"
   },
   ["vim-alias"] = {
     loaded = true,

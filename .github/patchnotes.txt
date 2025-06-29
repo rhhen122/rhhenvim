@@ -1,0 +1,8 @@
+Added new deafault theme - Archery
+Added RipGrep
+Added Harpoon
+Added patchnotes.txt
+Moved /README.md -> /.github/README.md
+Added TokyoNight Colorscheme
+
+ - Rhhen122
