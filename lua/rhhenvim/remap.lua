@@ -4,7 +4,7 @@ vim.o.tabstop = 4 -- A TAB character looks like 4 spaces
 vim.o.expandtab = true -- Pressing the TAB key will insert spaces instead of a TAB character
 vim.o.softtabstop = 4 -- Number of spaces inserted instead of a TAB character
 vim.o.shiftwidth = 4 -- Number of spaces inserted when indenting
-vim.keymap.set("n", "<leader>f", vim.cmd.Ex)
+vim.keymap.set("n", "<leader>f", vim.cmd.Ex, { desc = "Open Netrw" })
 vim.keymap.set("n", "<C-q>", vim.cmd.q)
 
 -- Telescope
@@ -72,4 +72,6 @@ map('n', '<Space>bw', '<Cmd>BufferOrderByWindowNumber<CR>', opts)
 vim.keymap.set('n', '<leader>ha', function() vim.cmd.lua("require('harpoon.mark').add_file()") end, { desc = 'Harpoon Add' })
 vim.keymap.set('n', '<leader>hh', function() vim.cmd.lua("require('harpoon.ui').toggle_quick_menu()") end, { desc = 'Harpoon See' })
 
+-- Transparent.nvim
 
+vim.keymap.set('n', '<leader>g', function() vim.cmd(":TransparentToggle") end, { desc = 'Transparent Toggle' })

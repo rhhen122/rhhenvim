@@ -77,5 +77,6 @@ return require('packer').startup(function(use)
     use 'ThePrimeagen/harpoon'
 
     use 'duane9/nvim-rg'
-    
+
+    use 'tribela/transparent.nvim'
 end)

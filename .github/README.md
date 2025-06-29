@@ -64,3 +64,13 @@ Now run the following in neovim
 ```vim
 :lua start()
 ```
+
+## Uninstalling
+
+```vim
+:e ~/.config/nvim/lua/rhhenvim/fuckoff.lua
+:so
+:PackerSync
+```
+
+Then simply type `y` and [enter] and your on your mary-way!

@@ -174,6 +174,11 @@ _G.packer_plugins = {
     path = "/Users/rokyhenderson/.local/share/nvim/site/pack/packer/start/tokyonight.nvim",
     url = "https://github.com/folke/tokyonight.nvim"
   },
+  ["transparent.nvim"] = {
+    loaded = true,
+    path = "/Users/rokyhenderson/.local/share/nvim/site/pack/packer/start/transparent.nvim",
+    url = "https://github.com/tribela/transparent.nvim"
+  },
   ["vim-alias"] = {
     loaded = true,
     path = "/Users/rokyhenderson/.local/share/nvim/site/pack/packer/start/vim-alias",
