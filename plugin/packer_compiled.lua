@@ -84,6 +84,11 @@ _G.packer_plugins = {
     path = "/Users/rokyhenderson/.local/share/nvim/site/pack/packer/start/barbar.nvim",
     url = "https://github.com/romgrk/barbar.nvim"
   },
+  ["coc.nvim"] = {
+    loaded = true,
+    path = "/Users/rokyhenderson/.local/share/nvim/site/pack/packer/start/coc.nvim",
+    url = "https://github.com/neoclide/coc.nvim"
+  },
   ["gitsigns.nvim"] = {
     loaded = true,
     path = "/Users/rokyhenderson/.local/share/nvim/site/pack/packer/start/gitsigns.nvim",

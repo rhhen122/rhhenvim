@@ -79,4 +79,6 @@ return require('packer').startup(function(use)
     use 'duane9/nvim-rg'
 
     use 'tribela/transparent.nvim'
+
+    use {'neoclide/coc.nvim', branch = 'release'}
 end)
