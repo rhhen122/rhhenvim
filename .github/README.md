@@ -2,33 +2,35 @@
 A Better Vim distrobution powered by packer.nvim, neovim & lua
 
 ```lua
--- ██████╗ ██╗  ██╗██╗  ██╗███████╗███╗   ██╗ ██╗██████╗ ██████╗
--- ██╔══██╗██║  ██║██║  ██║██╔════╝████╗  ██║███║╚════██╗╚════██╗
--- ██████╔╝███████║███████║█████╗  ██╔██╗ ██║╚██║ █████╔╝ █████╔╝
--- ██╔══██╗██╔══██║██╔══██║██╔══╝  ██║╚██╗██║ ██║██╔═══╝ ██╔═══╝
--- ██║  ██║██║  ██║██║  ██║███████╗██║ ╚████║ ██║███████╗███████╗
--- ╚═╝  ╚═╝╚═╝  ╚═╝╚═╝  ╚═╝╚══════╝╚═╝  ╚═══╝ ╚═╝╚══════╝╚══════╝
--- RhhenVim is a Vim config that I (rhhen) use personally!
---                        ==============
---         ________ ++     ________
---       /VVVVVVVV\++++  /VVVVVVVV\     Vim is an Open Source Editor
---       \VVVVVVVV/++++++\VVVVVVVV/     Neovim is a `fork` of Vim -
---        |VVVVVV|++++++++/VVVVV/'       - That Provides Lua Support
---        |VVVVVV|++++++/VVVVV/'        This allows for awesome -
---       +|VVVVVV|++++/VVVVV/'+          - projects like Packer.nvim!
---     +++|VVVVVV|++/VVVVV/'+++++       Packer.nvim powers RhhenVim -
---   +++++|VVVVVV|/VVVVV/'+++++++++      - As a `plugin` loader -
---     +++|VVVVVVVVVVV/'+++++++++        - And preset! RhhenVim is -
---       +|VVVVVVVVV/'+++++++++          - constantly updating with -
---        |VVVVVVV/'+++++++++            - new features and plugins!
---        |VVVVV/'+++++++++             Most things that make this -
---        |VVV/'+++++++++                - "IDE" great are plugins -
---        'V/'   ++++++                 made by the community!
---                 ++
---                        ==============
--- Please check the README for more info on support and such!
--- Tips: use :lua t() to make the background color transparent,
--- and install new ones!
+--[[
+██████╗ ██╗  ██╗██╗  ██╗███████╗███╗   ██╗ ██╗██████╗ ██████╗
+██╔══██╗██║  ██║██║  ██║██╔════╝████╗  ██║███║╚════██╗╚════██╗
+██████╔╝███████║███████║█████╗  ██╔██╗ ██║╚██║ █████╔╝ █████╔╝
+██╔══██╗██╔══██║██╔══██║██╔══╝  ██║╚██╗██║ ██║██╔═══╝ ██╔═══╝
+██║  ██║██║  ██║██║  ██║███████╗██║ ╚████║ ██║███████╗███████╗
+╚═╝  ╚═╝╚═╝  ╚═╝╚═╝  ╚═╝╚══════╝╚═╝  ╚═══╝ ╚═╝╚══════╝╚══════╝
+RhhenVim is a Vim config that I (rhhen) use personally!
+                       ==============
+        ________ ++     ________
+      /VVVVVVVV\++++  /VVVVVVVV\     Vim is an Open Source Editor
+      \VVVVVVVV/++++++\VVVVVVVV/     Neovim is a `fork` of Vim -
+       |VVVVVV|++++++++/VVVVV/'       - That Provides Lua Support
+       |VVVVVV|++++++/VVVVV/'        This allows for awesome -
+      +|VVVVVV|++++/VVVVV/'+          - projects like Packer.nvim!
+    +++|VVVVVV|++/VVVVV/'+++++       Packer.nvim powers RhhenVim -
+  +++++|VVVVVV|/VVVVV/'+++++++++      - As a `plugin` loader -
+    +++|VVVVVVVVVVV/'+++++++++        - And preset! RhhenVim is -
+      +|VVVVVVVVV/'+++++++++          - constantly updating with -
+       |VVVVVVV/'+++++++++            - new features and plugins!
+       |VVVVV/'+++++++++             Most things that make this -
+       |VVV/'+++++++++                - "IDE" great are plugins -
+       'V/'   ++++++                 made by the community!
+                ++
+                       ==============
+Please check the README for more info on support and such!
+Tips: use :lua t() to make the background color transparent,
+and install new ones!
+]]--
 ```
 
 ## Usage
