@@ -24,6 +24,4 @@ vim.cmd(":set shell=/opt/homebrew/bin/fish")
 -- Mason
 
 require("mason").setup()
-
-vim.cmd(":set rnu")
 -- t()
