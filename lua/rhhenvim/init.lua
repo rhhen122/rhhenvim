@@ -5,7 +5,8 @@ require("rhhenvim.lualine")
 require("rhhenvim.treesitter")
 require("rhhenvim.noice")
 require("rhhenvim.lsp")
-require("rhhenvim.netrw")
+-- require("rhhenvim.netrw")
+require("rhhenvim.dash")
 
 -- ColorSchemes
 -- require("rhhenvim.rose-pine")

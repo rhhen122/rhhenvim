@@ -18,7 +18,6 @@ return require('packer').startup(function(use)
 
     use {
         'nvim-lualine/lualine.nvim',
-        requires = { 'nvim-tree/nvim-web-devicons', opt = true },
         options = { theme = 'gruvbox' }
     }
 
@@ -80,4 +79,12 @@ return require('packer').startup(function(use)
     use 'tribela/transparent.nvim'
 
     use {'neoclide/coc.nvim', branch = 'release'}
+
+    use {
+        "startup-nvim/startup.nvim",
+        requires = {"nvim-telescope/telescope.nvim", "nvim-lua/plenary.nvim", "nvim-telescope/telescope-file-browser.nvim"},
+        config = function()
+            require"startup".setup()
+        end
+    }
 end)
