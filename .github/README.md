@@ -59,6 +59,8 @@ load and unload `lsp`'s in `lua/rhhenvim/lsp.lua`
 
 Its quite simple really
 ```bash
+git clone --depth 1 https://github.com/wbthomason/packer.nvim\
+ ~/.local/share/nvim/site/pack/packer/start/packer.nvim
 git clone https://github.com/rhhen122/rhhenvim.git ~/.config/nvim/
 ```
 
