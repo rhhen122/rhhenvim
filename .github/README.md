@@ -72,9 +72,7 @@ Now run the following in neovim
 ## Uninstalling
 
 ```vim
-:e ~/.config/nvim/lua/rhhenvim/fuckoff.lua
-:so
-:PackerSync
+:lua destroy()
 ```
 
 Then simply type `y` and [enter] and your on your mary-way!

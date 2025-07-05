@@ -11,7 +11,16 @@ end
 -- Start
 
 function start()
-    vim.cmd(":PackerSync")
+    vim.cmd [[
+    :so ~/.config/nvim/lua/rhhenvim/packer.lua
+    :PackerSync
+    ]]
+end
+function destroy()
+    vim.cmd [[
+    :so ~/.config/nvim/lua/rhhenvim/fuckoff.lua
+    :PackerSync
+    ]]
 end
 
 -- Shell
