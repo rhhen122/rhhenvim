@@ -33,6 +33,10 @@ and install new ones!
 ]]--
 ```
 
+## Video
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/M9vFyr8BF3g?si=iTHWjzMjLO4AtpGO" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 ## Usage
 
 Load and unload plugin configs in the `lua/rhhenvim/init.lua` file!
